@@ -1,23 +1,32 @@
 header
-
     .contacts-header
         padding-top: 10px
         font-size: 14px
         height: 40px
+        @media  (max-width: 768px)
+            margin-bottom: 8%
 
     .main-header
         background-color: #FFE8E8
         -webkit-box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.25)
         box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.25)
-
+        @media  (max-width: 768px)
+            padding-top: 5%
     .header-bg
         background-image: url("../img/footer-bg.jpg")
         background-repeat: no-repeat
         background-size: cover
         width: 100%
         height: 247px
+    .more
+        background-color: #fff
 sup
     background-color: #DD4141
     border: 3px solid red
     border-radius: 50%
     color: #fff
+main
+    .week-news
+        margin-top: 1%
+    .company-news, .form-find-company, .hashtag
+        margin-top: 2%

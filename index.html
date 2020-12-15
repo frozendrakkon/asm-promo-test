@@ -15,10 +15,10 @@
         <div class="contacts-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md">
-                        <span>Ваш город: <strong>Казань</strong>
+                    <div class="col-lg-2 col-md-3 col-sm-12">
+                        <span class="text-nowrap">Ваш город: <strong>Казань</strong>
                     </div>
-                    <div class="col-lg-7 col-md">
+                    <div class="col-lg-7 col-md-3 col-sm-12">
                         <svg width="0.6em" height="0.6em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="red"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -26,7 +26,7 @@
                         </svg> ул. Рашида Вагапова д.3
                     </div>
                     </span>
-                    <div class="col-lg-3 col-md">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <span><a href="#" class="text-danger">Заказать звонок</a> <strong class="text-nowrap">+7 (917)
                                 285-42-75</strong></span>
                     </div>
@@ -37,40 +37,45 @@
         <div class="main-header">
             <div class="container">
                 <div class="row d-flex align-items-lg-center">
-                    <div class="col-lg-3 col-md-6"><img src="./img/logo.png" alt="Logo"></div>
-                    <form class="col-lg-6 col-md-6">
-                        <div class="row border">
-                            <input class="col-lg-9 col-md-4 form-control"></input>
-                            <div class="col-lg-1 col-md-4 align-self-lg-center"><img src="./img/settings-search.svg"
-                                    alt="=">
+                    <div class="col-lg-3 d-none pb-10 d-lg-block"><img src="./img/logo.png" alt="Logo">
+                    </div>
+
+                    <form class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row border" style="background-color: #fff;">
+                            <input class="col-lg-9 col-md-7 col-sm-11 col-xs-11 form-control"
+                                value="Поиск по сайту"></input>
+                            <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block col-1  align-self-lg-center">
+                                <img src="./img/settings-search.svg" alt="=">
                             </div>
-                            <button class="col-lg-2 col-md-4 btn btn-danger ">Найти</button>
+                            <button class="col-lg-2 col-md-4 col-sm-12 col-xs-12 btn btn-danger ">Найти</button>
                         </div>
                     </form>
-
-                    <div class="col-lg-1 col-md-4 text-center"><a class="text-dark" href="#"><svg
+                    <div class="col-lg-1 col-md-4 col-sm-4 text-center"><a class="text-dark" href="#"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                 class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                            </svg><br>Войти</a></div>
+                            </svg><br>Войти</a>
+                    </div>
 
-                    <div class="col-lg-1 col-md-4 text-center pr-2"><a href="#" class="text-dark"><svg
+                    <div class="col-lg-1 col-md-4 col-sm-4 text-center pr-2"><a href="#" class="text-dark"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor"
                                 class="bi bi-heart-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                            </svg><sup>0</sup><br>Избранное</a></div>
+                            </svg><sup>0</sup><br>Избранное</a>
+                    </div>
 
-                    <div class="col-lg-1 col-md-4 text-center"><a href="#" class="text-dark"><svg
+                    <div class="col-lg-1 col-md-4 col-sm-4 text-center"><a href="#" class="text-dark"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                 class="bi bi-basket2-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1z" />
-                            </svg><sup>0</sup><br>Корзина</a></div>
+                            </svg><sup>0</sup><br>Корзина</a>
+                    </div>
                 </div>
                 <hr>
-                <nav>
+                <nav col-lg-12 col-md-12 col-sm-12 col-xs-12>
                     <ul class="d-flex nav justify-content-lg-between">
                         <li><a class="text-dark nav-link" href="#">Каталог</a></li>
                         <li><a class="text-dark nav-link" href="#">Новинки</a></li>
@@ -84,11 +89,126 @@
             <!-- container -->
         </div>
 
-        <div class="header-bg"></div>
+        <div class="header-bg d-none d-lg-block d-xl-block"></div>
     </header>
 
 
-    <main class="main"></main>
+    <main class="main">
+        <div class="week-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p> Главная / Новости</p>
+                    </div>
+                    <div class="col-12">
+                        <h2>Новости недели</h2>
+                    </div>
+                    <div class="col-12 news-gallery d-flex flex-wrap">
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded "
+                                    alt=" Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded"
+                                    alt="Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded"
+                                    alt="Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded"
+                                    alt="Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded"
+                                    alt="Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4">
+                            <figure class="figure">
+                                <img src="./img/rectangle.png" class="figure-img img-fluid rounded"
+                                    alt="Сопроводительная надпись для изображения.">
+                                <figcaption class="figure-caption text-left text-dark">14.10.2020 <br> <br> Как
+                                    упаковать
+                                    новогодний подарок
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="company-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Новости компании</h2>
+                    </div>
+                    <form class="col-12 form-find-company">
+                        <div class="row">
+                            <input class="col-lg-7 col-md-4 col-sm-12 form-control" value="Поиск новостей"></input>
+                            <button class="col-lg-1 col-md-3 col-sm-12 btn btn-danger ml-lg-2">Найти</button>
+                            <button class="col-lg-3 col-md-4 col-sm-12 btn text-danger ml-lg-5 border-danger">Подобрать
+                                по хэштегам</button>
+                        </div>
+                    </form>
+                    <div class="col-12 d-flex flex-wrap hashtag">
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+                        <a class="text-dark pr-3" href="#">#хэштегподарки</a>
+                        <a class="text-dark pr-3" href="#">#хэштег</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="footer"></footer>
 </body>
 
