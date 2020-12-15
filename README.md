@@ -1,1 +1,1 @@
-# asm-promo-test
+# Тестовое задание Asm-promo
