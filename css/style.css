@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 header .contacts-header {
   padding-top: 10px;
   font-size: 14px;
@@ -40,11 +44,37 @@ sup {
   color: #fff;
 }
 
+main {
+  background-color: #E5E5E5;
+}
+
 main .week-news {
   margin-top: 1%;
 }
 
-main .company-news, main .form-find-company, main .hashtag {
+main .company-news-form, main .form-find-company, main .hashtag, main .company-news, main .block-news {
   margin-top: 2%;
+}
+
+main .offer-gift {
+  margin-top: 5%;
+}
+
+main .offer-gift {
+  min-height: 200px;
+}
+
+main .offer-gift .container {
+  background-color: #fff;
+  min-width: 300px;
+}
+
+footer {
+  background-color: #262D33;
+  min-height: 375px;
+}
+
+footer a {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
